@@ -45,7 +45,7 @@ aside {
     color: aliceblue; 
     */
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 
 aside img {
