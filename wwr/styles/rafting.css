@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --primary-color: #14342B;
+    --secondary-color: #1C448E;
+    --accent1-color: #BBDFC5;
+    --accent2-color: #ABB6D8;
+
+    --heading-font: "Orbitron", serif;
+    --paragraph-font: "Inter Tight", serif;
+
+    --nav-background-color: #14342B;
+    --nav-link-color: #BBDFC5;
+    --nav-hover-link-color:#1C448E;
+    --nav-hover-background-color:#ABB6D8;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+article img {
+    height: 200px;
+    float: right;
+}
+
+p {
+    padding: 25px;
+}
