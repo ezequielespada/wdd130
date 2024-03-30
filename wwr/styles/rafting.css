@@ -15,34 +15,73 @@
     --nav-hover-background-color:#ABB6D8;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent1-color);
+}
+
+header img {
+    width: 100px;
+    margin: 10px;
+}
+
+header nav a {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+body {
+    width: auto;
+}
+
+div {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-body {
-    width: 800px;
-}
-
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-h1 {
-    position: absolute;
-}
-
-article {
-    position: absolute;
-    background-color: var(--primary-color);
     color: var(--accent1-color);
 }
 
+h1 {
+    background-color: #14342B;
+    position: absolute;
+    left: 250px;
+}
+article {
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+article p {
+    position: absolute;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
 article img {
-    height: 200px;
+    width: 50px;
+    height: auto;
     float: right;
+}
+
+article {
+    display: flex;
 }
 
 p {
@@ -52,4 +91,12 @@ p {
 
 footer p {
     font-family: var(--heading-font);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 50px;
 }
