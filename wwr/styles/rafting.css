@@ -41,14 +41,17 @@ body {
     width: auto;
 }
 
-div {
-    position: relative;
-}
-
-.hero img {
+.hero {
     display: block;
+    position: relative;
     width: 100%;
     height: auto;
+}
+
+.over {
+    display: flex;
+    background-color: #14342B;
+    position: absolute;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,11 +59,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent1-color);
 }
 
-h1 {
-    background-color: #14342B;
-    position: absolute;
-    left: 250px;
-}
 article {
     display: block;
     position: absolute;
