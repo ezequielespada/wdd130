@@ -22,7 +22,6 @@ header {
     background-color: var(--accent1-color);
     border: 2px solid var(--nav-background-color);
     align-items: center;
-    max-width: auto;
     font-family: var(--heading-font);
 }
 
@@ -45,7 +44,7 @@ header img {
 
 .navigation a {
 	display: block;
-	color: var(---nav-background-color);
+	color: var(--nav-background-color);
 	padding: 10px;
 	text-decoration: none;
 }
