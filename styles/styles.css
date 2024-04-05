@@ -32,6 +32,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
+    margin: 20px;
     box-shadow: 0 0 30px 5px gray;
     float: right;
 }
@@ -80,8 +81,7 @@ header, .grid, footer {
     margin: 1rem;
     border: 1px solid black;
     padding: 2rem;
-    background-color: steelblue;
-    color: white;
+    background-color: lightgrey;
 }
 
 .grid {
