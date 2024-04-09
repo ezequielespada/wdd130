@@ -141,6 +141,7 @@ p {
 .adventure {
     border: 2px solid var(--nav-background-color);
     align-items: center;
+    margin: 1rem auto;
 }
 
 h2 {
@@ -176,4 +177,69 @@ footer a {
 
 footer img {
     width: 50px;
+}
+
+.about-us h2 {
+    text-align: start;
+}
+
+.about-us {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--nav-background-color);
+    width: auto;
+    height: auto;
+}
+
+.info {
+    flex: 1;
+}
+
+.mapa {
+    flex: 1;
+}
+
+address p {
+    margin: 50px 0;
+}
+
+.happy-employees {
+    border: 2px solid var(--nav-background-color);
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employees img {
+    width: 188px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+form {
+    width: auto;
+}
+
+.contact-form {
+    border: 2px solid var(--nav-background-color);
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+}
+
+.form-group {
+    margin: 1rem auto;
 }
