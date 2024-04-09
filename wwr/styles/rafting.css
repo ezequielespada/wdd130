@@ -76,11 +76,8 @@ body {
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-}
-
 h1 {
+    font-family: var(--heading-font);
     color: rgb(255, 136, 0);
     position: absolute;
     top: 10%;
@@ -107,7 +104,6 @@ article p {
     padding: 25px;
     color: var(--primary-color);
     background-color: var(--accent1-color);
-    /*text-shadow: 1px 1px 1px var(--secondary-color);*/
 }
 
 div .employee {
@@ -145,6 +141,7 @@ p {
 }
 
 h2 {
+    font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
 }
@@ -196,12 +193,19 @@ footer img {
     flex: 1;
 }
 
+.info h1 {
+    position: relative;
+    color: var(--primary-color);
+    text-shadow: none;
+}
+
 .mapa {
     flex: 1;
 }
 
 address p {
     margin: 50px 0;
+    font-family: var(--paragraph-font);
 }
 
 .happy-employees {
@@ -222,9 +226,11 @@ address p {
 
 figcaption {
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 
 form {
+    font-family: var(--paragraph-font);
     width: auto;
 }
 
