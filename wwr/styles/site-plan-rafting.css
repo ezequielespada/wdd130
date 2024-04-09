@@ -16,6 +16,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
@@ -55,4 +58,37 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.palette {
+    display: flex;
+}
+
+.palette div {
+    border: 1px solid var(--primary-color);
+    margin: 1rem auto;
+    height: 200px;
+    padding: 1rem;
+    text-align: center;
+    align-content: center;
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+.secondary-color {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+.accent1-color {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.accent2-color {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
 }
