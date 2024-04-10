@@ -68,14 +68,14 @@ main {
 
 }
 
-/* container */
-.container {
+/* container-trips */
+.container-trips {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.call-to-action {
+.call-to-action-trips {
     position: sticky;
     top: 70px;
     padding: 0 1rem;
@@ -85,7 +85,7 @@ main {
     font-family: var(--heading-font);
 }
 
-.call-to-action a:hover {
+.call-to-action-trips a:hover {
 	color: var(--secondary-color);
 	text-decoration: underline;
 }
