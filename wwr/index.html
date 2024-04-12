@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta name="description" content="Site plan rafting">
+    <meta name="Home Rafting Argentina" content="Site plan rafting">
     <meta name="author" content="Ezequiel Espada">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    
+    <!-- header -->
     <header>
         <img src="images/logo.png" alt="Rafting logo">
         <nav>
@@ -29,39 +29,65 @@
             </ul>
         </nav>
     </header>
-    
-    <!-- Call to Action -->
-    <section class="call-to-action-trips">
-        <h2><a href="contact.html" class="btn">Contact Us</a></h2>                
-    </section>
-    
-    <div class="hero-video">
-        <video src="images/hero-video-rafting.mp4" autoplay muted loop></video>
+    <div class="hero-home">       
+        <!-- Hero -->
+        <div class="hero-video">
+            <video src="images/hero-video-rafting.mp4" autoplay muted loop></video>        
+        </div>
+        <!-- Call to Action -->
+        <section class="call-to-action-trips">
+            <h2><a href="trips.html" class="btn">Contact Us</a></h2>                
+        </section>
     </div>
-
+    <!-- Most popular trips -->
     <div class="most-popular-trips">
         <h2>Most Popular California Rafting Trips</h2>
         <div class="top-trips">
-            <div>
+            <div class="top-trips-description">
                 <h3>Río Atuel, Mendoza</h3>
                 <img src="images/adventure-1.png" alt="adventure-1">
                 <p>One of the best places for rafting in Argentina is the Atuel Canyon, near the city of San Rafael, on the Adel River of the same name. This river has a difficulty level of 1 to 3, which makes it suitable for all audiences. The ideal time to practice it is from July to April.</p>
             </div>
-            <div>
+            <div class="top-trips-description">
                 <h3>Río Aluminé, Neuquén</h3>
                 <img src="images/adventure-2.png" alt="adventure-2">
                 <p>The Aluminé River can be navigated from October to March and the sector that is usually navigated is the one called Abra Ancha, grade 3, allowing safe, very hectic and fun navigation but also giving breaks that allow you to enjoy the landscape.</p>
             </div>
-            <div>
+            <div class="top-trips-description">
                 <h3>Río Limay, Neuquén</h3>
                 <img src="images/adventure-3.png" alt="adventure-3">
-                <p>Ideal for beginners. It is born at the eastern end of Lake Nahuel Huapi and runs in a meandering manner for about 500 kilometers in a northeasterly direction, adding tributaries such as the Traful, Pichileufú, Collón Curá and Picún Leufú rivers.</p>
+                <p>Ideal for beginners. It is born at the eastern of Nahuel Huapi and runs in a meandering manner for about 500 km in a northeasterly direction, adding tributaries such as the Traful, Pichileufú, Collón Curá and Picún Leufú rivers.</p>
             </div>
         </div>
     </div>
+
+    <!-- Subscribe Newsletter -->
+    <section>
+        <div class="newsletter">
+            <div class="newsletter-form">
+                <div>
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Weekly trips and news about rafting delivered straight to your inbox</p>
+                </div>
+                <form action="#" method="post">
+                    <div class="form-subscribe">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="User's name" required>
+                    </div>
+                    <div class="form-subscribe">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="email address">
+                    </div>         
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
     <footer>
         <p>&copy;2024 &#9889; Rafting Site Document &#9889; Ezequiel H. Espada &#9889; WDD 130<br>
-        <a href="https://app.moqups.com/qaGgsXiOjrZjvhqboMmlJkWyYaeGsDkh/view/page/a69c15d29" target="_blank" rel="noopener noreferrer">Trips Wireframe</a></p>
+        <a href="images/wireframe-home.png" target="_blank" rel="noopener noreferrer">Trips Wireframe</a></p>
         <nav>
             <a href="https://facebook.com"><img src="images/facebook-icon.svg" alt="Facebook"></a>
             <a href="https://twitter.com"><img src="images/twitter-icon.svg" alt="Twitter"></a>
